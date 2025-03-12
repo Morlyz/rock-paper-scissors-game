@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('images/woodback.jpg') no-repeat;
+    background-size: cover;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh; 
+    margin: auto;
+}
+.fruktur-regular {
+    font-family: "Fruktur", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: rgb(109, 236, 25);
+    letter-spacing: 2px;
+  }
+.shadowy{
+    margin: 5px;
+}
+#box{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+.btn{
+    background-color: rgb(207, 53, 5);
+    padding: 15px;
+    border: 1px white;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px inset rgb(201, 111, 70);
+    font-family: "Fruktur", system-ui;
+    font-style: normal;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: bisque;
+}
+.btn:hover{
+    font-size: 23px;
+}
+  
